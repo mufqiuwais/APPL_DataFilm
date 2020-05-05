@@ -15,7 +15,7 @@ public class Film {
 	
 	@Field
 	private String title;
-	private Date release;
+	private int year_release;
 	private int duration;
 	private String age_rating;
 	private List<String> genre;
@@ -26,12 +26,12 @@ public class Film {
 		super();
 	}
 	
-	public Film(String id, String title, Date release, int duration, String age_rating, List<String> genre,
-			String director, List<String> actors) {
+	public Film(String id, String title, int year_release, int duration, String age_rating,
+			List<String> genre, String director, List<String> actors) {
 		super();
 		this.id = id;
 		this.title = title;
-		this.release = release;
+		this.year_release = year_release;
 		this.duration = duration;
 		this.age_rating = age_rating;
 		this.genre = genre;
@@ -51,11 +51,11 @@ public class Film {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public Date getRelease() {
-		return release;
+	public int getRelease() {
+		return year_release;
 	}
-	public void setRelease(Date release) {
-		this.release = release;
+	public void setRelease(int release) {
+		this.year_release = release;
 	}
 	public int getDuration() {
 		return duration;

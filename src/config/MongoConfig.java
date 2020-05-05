@@ -1,28 +1,30 @@
 package config;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
+import org.springframework.data.mongodb.MongoDbFactory;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
-
-import com.mongodb.Mongo;
+ 
 import com.mongodb.MongoClient;
-
+ 
 @Configuration
-@EnableMongoRepositories("film.db")
-public class MongoConfig extends AbstractMongoConfiguration {
-	
-	@Override
-	protected String getDatabaseName() {
-		return "OrdersDB";
-	}
-	
-	public Mongo mongo() throws Exception {
-		return new MongoClient();
-	}
-
-	@Override
-	public MongoClient mongoClient() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+@ComponentScan(basePackages = "query")
+@EnableMongoRepositories({ "repository" })
+public class MongoConfig {
+ 
+    @Bean
+    public MongoDbFactory mongoDbFactory() throws Exception {
+        MongoClient mongoClient = new MongoClient("localhost", 27017);
+        return new SimpleMongoDbFactory(mongoClient, "dataFilm");
+    }
+ 
+    @Bean
+    public MongoTemplate mongoTemplate() throws Exception {
+        MongoTemplate mongoTemplate = new MongoTemplate(mongoDbFactory());
+        return mongoTemplate;
+    }
+ 
 }
