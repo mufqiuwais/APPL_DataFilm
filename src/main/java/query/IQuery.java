@@ -13,6 +13,8 @@ public interface IQuery {
     public void delete(Film film);
  
     public void deleteAll();
+    
+    public Film findById(String id);
  
     public List < Film > findByYearRelease(int year);
  

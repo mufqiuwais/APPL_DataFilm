@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-aop-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-aop-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-aop-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-aspects-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-aspects-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-aspects-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-beans-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-beans-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-beans-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-boot-2.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-boot-autoconfigure-2.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-boot-starter-test-2.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-boot-starter-web-2.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-indexer-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-indexer-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-indexer-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-support-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-support-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-context-support-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-core-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-core-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-core-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-data-commons-2.2.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-data-mongodb-2.2.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-expression-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-expression-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-expression-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-instrument-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-instrument-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-instrument-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jcl-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jcl-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jcl-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jdbc-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jdbc-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jdbc-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jms-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jms-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-jms-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-messaging-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-messaging-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-messaging-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-orm-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-orm-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-orm-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-oxm-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-oxm-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-oxm-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-test-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-test-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-test-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-tx-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-tx-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-tx-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-web-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-web-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-web-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-webflux-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-webflux-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-webflux-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-webmvc-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-webmvc-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-webmvc-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-websocket-5.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-websocket-5.2.6.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Mufqi/Teknik Informatika/APPL1/spring-framework-5.2.6.RELEASE/libs/spring-websocket-5.2.6.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mufqi/Documents/EclipseProjects/APPL1_DataFilm/WebContent/WEB-INF/lib/bson-3.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mufqi/Documents/EclipseProjects/APPL1_DataFilm/WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mufqi/Documents/EclipseProjects/APPL1_DataFilm/WebContent/WEB-INF/lib/mongodb-driver-3.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mufqi/Documents/EclipseProjects/APPL1_DataFilm/WebContent/WEB-INF/lib/mongodb-driver-core-3.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mufqi/Documents/EclipseProjects/APPL1_DataFilm/WebContent/WEB-INF/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

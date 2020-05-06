@@ -37,6 +37,14 @@ public class FilmQueries implements IQuery {
     public List < Film > findAll() {
         return FilmRepo.findAll();
     }
+    
+    @Override
+    public Film findById(String id) {
+    	if(FilmRepo.existsById(id)) {
+    		return FilmRepo.findById(id).get();
+    	}
+    	return null;
+    }
  
     @Override
     public List < Film > findByTitle(String title) {
