@@ -38,7 +38,8 @@ public class Main {
         	System.out.println("4. Add film to the database");
         	System.out.println("5. Delete a film by id");
         	System.out.println("6. Update a film by id");
-        	System.out.println("7. Exit");
+        	System.out.println("7. Delete all films in database");
+        	System.out.println("8. Exit");
         	System.out.print("Option : ");
         	option = scan.nextInt();
         	switch(option) {
@@ -233,6 +234,11 @@ public class Main {
             	        pressAnyKeyToContinue();
         			}
         			
+        			break;
+        		}
+        		case 7:{
+        			filmQueries.deleteAll();
+        			pressAnyKeyToContinue();
         			break;
         		}
         		default:{
