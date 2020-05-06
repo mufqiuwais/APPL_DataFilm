@@ -37,7 +37,8 @@ public class Main {
         	System.out.println("3. Find films by year of release");
         	System.out.println("4. Add film to the database");
         	System.out.println("5. Delete a film by id");
-        	System.out.println("6. Exit");
+        	System.out.println("6. Update a film by id");
+        	System.out.println("7. Exit");
         	System.out.print("Option : ");
         	option = scan.nextInt();
         	switch(option) {
@@ -174,6 +175,67 @@ public class Main {
         			break;
         		}
         		case 6:{
+        			Film film = new Film();
+        			String id;
+        			String title;
+        			int year_release;
+        			int duration;
+        			String age_rating;
+        			String sGenre;
+        			List<String> genre;
+        			String director;
+        			String sActors;
+        			List<String> actors;
+        			String str[];
+        			System.out.print("Enter the film id : ");
+        			scan.nextLine();
+        			id = scan.nextLine();
+        			film = filmQueries.findById(id);
+        			if(film==null) {
+        				System.out.println("No Film with such id");
+            	        pressAnyKeyToContinue();
+        			}else {
+        				System.out.println("==========Before Update==========");
+        				System.out.println("Id : " + film.getId());
+        	            System.out.println("Title : " + film.getTitle());
+        	            System.out.println("Release In : " + film.getRelease());
+        	            System.out.println("Duration : " + film.getDuration());
+        	            System.out.println("Rating : " + film.getAge_rating());
+        	            System.out.println("Director : " + film.getDirector());
+        	            System.out.println("Genre : " + film.getGenre());
+        	            System.out.println("Actors : " + film.getActors());
+        	            System.out.println();
+        	            System.out.println("==========Updating==========");
+        	            System.out.print("Id : ");
+        	            id = scan.nextLine();
+        	            System.out.print("Title : ");
+        	            title = scan.nextLine();
+        	            System.out.print("Release In : ");
+        	            year_release = scan.nextInt();
+        	            System.out.print("Duration in minutes: ");
+        	            duration = scan .nextInt();
+        	            System.out.print("Rating : ");
+        	            scan.nextLine();
+        	            age_rating = scan.nextLine();
+        	            System.out.print("Director : ");
+        	            director = scan.nextLine();
+        	            System.out.print("Genre (separate it using coma \",\"): ");
+        	            sGenre = scan.nextLine();
+        	            System.out.print("Actors (separate it using coma \",\"): ");
+        	            sActors = scan.nextLine();
+        	            System.out.println();
+        	            str = sGenre.split(",");
+        	            genre = Arrays.asList(str);
+        	            str = sActors.split(",");
+        	            actors = Arrays.asList(str);
+        	            film = new Film(id, title, year_release, duration, age_rating, genre, director, actors);
+        				filmQueries.update(film);
+            	        pressAnyKeyToContinue();
+        			}
+        			
+        			break;
+        		}
+        		default:{
         			System.out.println("Thank you!");
         			exit = true;
         			break;
