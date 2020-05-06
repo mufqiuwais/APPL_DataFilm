@@ -20,45 +20,8 @@ public class Main {
  
         AbstractApplicationContext context = new AnnotationConfigApplicationContext(MongoConfig.class);
         IQuery filmQueries = (IQuery) context.getBean("filmQueries");
-        // Delete All cars
-//        filmQueries.deleteAll();
         
         mainMenu(filmQueries);
-//        /*Create*/
-//        ArrayList<String> genre = new ArrayList<>();
-//        genre.add("Sci-Fi");
-//        ArrayList<String> actors = new ArrayList<>();
-//        actors.add("Mark Hamill");
-//        actors.add("Daisy Ridley");
-//        Film starwars = new Film("123141rq131", "Star Wars : The Last Jedi", 2018, 180, "PG", genre, "Waka Impala", actors);
-//        filmQueries.create(starwars);
-// 
-//        /*Update*/
-//        System.out.println();
-//        starwars.setDuration(120);
-//        filmQueries.update(starwars);
-//        
-//        /*Query*/
-//        System.out.println("\nFind By Title:- " + filmQueries.findByTitle(starwars.getTitle()));
-//        
-//        System.out.println("\nFind By Id:- " + filmQueries.findById(starwars.getId()));
-//        
-//        System.out.println("\nFind All!!");
-// 
-//        List < Film > films = filmQueries.findAll();
-//        for (Film film: films) {
-//            System.out.println(film.getTitle());
-//        }
-// 
-//        System.out.println("\nFind By Year Release = '2018'");
-//        films = filmQueries.findByYearRelease(2018);
-//        for (Film film: films) {
-//            System.out.println(film.getTitle());
-//        }
-//        
-//        /*Delete*/
-//        System.out.println();
-//        filmQueries.delete(starwars);
  
         context.close();
     }
@@ -167,25 +130,19 @@ public class Main {
         	            scan.nextLine();
         	            id = scan.nextLine();
         	            System.out.print("Title : ");
-//        	            scan.nextLine();
         	            title = scan.nextLine();
         	            System.out.print("Release In : ");
-//        	            scan.nextLine();
         	            year_release = scan.nextInt();
         	            System.out.print("Duration in minutes: ");
-//        	            scan.nextLine();
         	            duration = scan .nextInt();
         	            System.out.print("Rating : ");
         	            scan.nextLine();
         	            age_rating = scan.nextLine();
         	            System.out.print("Director : ");
-//        	            scan.nextLine();
         	            director = scan.nextLine();
         	            System.out.print("Genre (separate it using coma \",\"): ");
-//        	            scan.nextLine();
         	            sGenre = scan.nextLine();
         	            System.out.print("Actors (separate it using coma \",\"): ");
-//        	            scan.nextLine();
         	            sActors = scan.nextLine();
         	            System.out.println();
         	            str = sGenre.split(",");
